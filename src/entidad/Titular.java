@@ -13,6 +13,10 @@ public class Titular {
     private String direccion;
     private String email;
 
+    public Titular() {
+        this.id = ID_GENERATOR.getAndIncrement();
+    }
+
     public Titular(String nombre, int edad, String direccion, String email) {
         this.id = ID_GENERATOR.getAndIncrement();
         this.nombre = nombre;

@@ -93,4 +93,12 @@ public class ConexionBBDD {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    /**
+     * Obtener la conexión de la BBDD para hacer operaciones
+     * @return objeto de tipo Connection
+     */
+    public Connection getConexion() {
+        return conexion;
+    }
 }

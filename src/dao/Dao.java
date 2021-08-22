@@ -15,7 +15,7 @@ public interface Dao<T> {
 
     void registrar(T t);
 
-    void modificar(T t, String[] params);
+    void modificar(T t);
 
     void eliminar(T t);
 }
