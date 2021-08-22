@@ -13,9 +13,9 @@ public interface Dao<T> {
 
     List<T> getAll();
 
-    void save(T t);
+    void registrar(T t);
 
-    void update(T t, String[] params);
+    void modificar(T t, String[] params);
 
-    void delete(T t);
+    void eliminar(T t);
 }
